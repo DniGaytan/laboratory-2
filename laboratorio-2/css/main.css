@@ -1,0 +1,77 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.social-link:hover{
+  background-color: #f7f7f7;
+
+}
+.section_wrapper{
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 0px 10px 0px 10px;
+}
+
+.section_wrapper:hover{
+  background-color: #c0c5ce;
+}
+
+.objective_content{
+  border-color: #03396c;
+}
+
+.experience_content{
+  border-color: #005b96;
+}
+
+.education_content{
+  border-color: #6497b1;
+}
+
+.interesets_content{
+  border-color: #b3cde0
+}
+
+.social-link{
+  border-radius: 10px;
+  padding: 10px;
+  flex-direction: center;
+}
+
+#facebook a span {
+  color:#3b5998;
+}
+
+#twitter a span{
+  color:#1da1f2;
+}
+
+#github a span{
+  color:#2b3137;
+}
+
+
+#facebook:hover{
+  background-color: #3b5998;
+}
+
+#facebook:hover a span{
+  color:white;
+}
+
+#twitter:hover{
+  background-color: #1da1f2;
+}
+
+#twitter:hover a span{
+  color:white;
+}
+
+#github:hover{
+  background-color: #2b3137;
+}
+
+#github:hover a span{
+  color:white;
+}
